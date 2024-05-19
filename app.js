@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 
 const corsConfig = {
-    origin: ["https://jhojiebaliwas.itch.io/crazy-farm", "https://jhojiebaliwas.itch.io/crazy-farm/"],
+    origin: ["https://jhojiebaliwas.itch.io/crazy-farm", "https://jhojiebaliwas.itch.io/crazy-farm/", "https://html-classic.itch.zone", "https://html-classic.itch.zone/"],
     methods: ["GET", "POST", "PUT", "DELETE"], // List only` available methods
     credentials: true, // Must be set to true
     allowedHeaders: ["Origin", "Content-Type", "X-Requested-With", "Accept", "Authorization"],
